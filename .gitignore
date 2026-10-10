@@ -1,0 +1,47 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+**/.env
+**/backend/.env
+backend/.env
+project/.env
+project/backend/.env
+!.env.example
+!**/.env.example
+
+# Node / JS dependencies and build outputs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temp uploads and test artifacts
+temp_uploads/
+project/temp_uploads/
+*.png
